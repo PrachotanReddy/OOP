@@ -13,7 +13,7 @@ class Matrix {
 
 	public void input () {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("\n\tEnter the matrix: ");
+		System.out.println("\n\tEnter the input matrix: ");
 		for (int i = 0; i < arr.length; ++i)
 			for (int j = 0; j < arr[i].length; ++j)
 				arr[i][j] = sc.nextInt();
